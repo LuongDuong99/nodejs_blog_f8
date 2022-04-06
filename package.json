@@ -1,37 +1,41 @@
 {
-    "name": "blog_f8",
-    "version": "1.0.0",
-    "description": "",
-    "main": "src/index.js",
-    "scripts": {
-        "start": "nodemon --inspect src/index.js",
-        "w": "node-sass --watch src/resources/scss/ --output src/public/css/",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/LuongDuong99/nodejs_blog_f8.git"
-    },
-    "keywords": [
-        "blog",
-        "f8",
-        "nodejs",
-        "blog"
-    ],
-    "author": "duong",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/LuongDuong99/nodejs_blog_f8/issues"
-    },
-    "homepage": "https://github.com/LuongDuong99/nodejs_blog_f8#readme",
-    "dependencies": {
-        "express": "^4.17.2",
-        "express-handlebars": "^6.0.3",
-        "node_module": "^0.0.0"
-    },
-    "devDependencies": {
-        "morgan": "^1.10.0",
-        "node-sass": "^7.0.1",
-        "nodemon": "^2.0.15"
-    }
+  "name": "blog_f8",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "w": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuongDuong99/nodejs_blog_f8.git"
+  },
+  "keywords": [
+    "blog",
+    "f8",
+    "nodejs",
+    "blog"
+  ],
+  "author": "duong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuongDuong99/nodejs_blog_f8/issues"
+  },
+  "homepage": "https://github.com/LuongDuong99/nodejs_blog_f8#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.3",
+    "mongoose": "^6.2.9",
+    "node_module": "^0.0.0"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  },
+  "description": ""
 }
