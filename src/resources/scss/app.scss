@@ -1,5 +1,12 @@
 @import "variables";
 
 .card.card-courses-item {
-  margin-top: 16px ;
+  margin-top: 16px;
+}
+.d1999 {
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    height: 71px;
 }
